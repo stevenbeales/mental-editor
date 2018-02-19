@@ -1,10 +1,8 @@
 <template>
   <div id="app">
     <header>
-      <span>Vue.js PWA</span>
     </header>
     <main>
-      <img src="./assets/logo.png" alt="Vue.js PWA">
       <router-view></router-view>
     </main>
   </div>
@@ -30,12 +28,12 @@ body {
 
 main {
   text-align: center;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 header {
   margin: 0;
-  height: 56px;
+  height: 28px;
   padding: 0 16px 0 24px;
   background-color: #35495E;
   color: #ffffff;
